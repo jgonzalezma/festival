@@ -43,12 +43,15 @@ public class Main {
 		festival.setNombre("Jazzaldia");
 		festival.setPatrocinador("Heineken");
 		//añadir actuaciones a una lista
-		ArrayList<Actuacion> listaActuaciones = new ArrayList();
-		listaActuaciones.add(a1);
+		/*
+		 * ArrayList<Actuacion> listaActuaciones = new ArrayList();
+		 * listaActuaciones.add(a1);
 		listaActuaciones.add(a2);
 		listaActuaciones.add(a3);
 		
 		festival.setActuaciones(listaActuaciones);
+		 */
+		
 		
 		Actuacion a4 = new Actuacion();
 		a4.setNombreGrupo("Mikel Laboa");
@@ -57,6 +60,10 @@ public class Main {
 		festival.addActuacion(a4);
 		
 		festival.addActuacion("Linkin Park", 70);
+		
+		festival.mostrasInfo();
+		
+		festival.addActuacion("berri txarrak", 20);
 		
 		festival.mostrasInfo();
 	}
