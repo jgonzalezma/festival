@@ -64,6 +64,7 @@ public class Main {
 		festival.mostrasInfo();
 		
 		festival.addActuacion("berri txarrak", 20);
+		festival.addActuacion("El reno renardo", 100);
 		
 		festival.mostrasInfo();
 	}
