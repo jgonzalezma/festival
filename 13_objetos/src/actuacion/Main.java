@@ -64,9 +64,17 @@ public class Main {
 		festival.mostrasInfo();
 		
 		festival.addActuacion("berri txarrak", 20);
-		festival.addActuacion("me cago en todo", 700);
 		
 		festival.mostrasInfo();
+		
+		festival.eliminarActuacion("Mikel Laboa");
+		
+		 
+	}
+	
 	}
 
-}
+
+
+
+
