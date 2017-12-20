@@ -20,7 +20,8 @@ public class Main_lista {
 
 		// rellenar la lista desde fichero
 		personas = crearLista("D:/Josu/Programación/personas.txt");
-
+		
+		
 		final int INSERTAR = 1;
 		final int LISTAR = 2;
 		final int ELIMINAR = 3;
@@ -84,7 +85,7 @@ public class Main_lista {
 
 				System.out.println("Guardado y Saliendo.....");
 				break;
-
+				
 			default:
 				System.out.println("Opcion mal");
 				break;
